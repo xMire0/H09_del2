@@ -7,7 +7,7 @@ public class Fields {
         return placesPoint;
     }
 
-    int[] placesPoint = {0, 250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
+    int[] placesPoint = {250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
 
     String[][] placesString = {{"- Tower, Great! You've received 250 points"},
             {"- Crater, Wwa wwa! you've lost 100 points"},

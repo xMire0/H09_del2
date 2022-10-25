@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.">
+    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <updated>1666690115227</updated>
       <workItem from="1666690116489" duration="367000" />
       <workItem from="1666690492282" duration="1261000" />
-      <workItem from="1666703362996" duration="7855000" />
+      <workItem from="1666703362996" duration="8037000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret">
       <created>1666691661588</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666707449599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds">
+      <created>1666711511836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666711511836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +137,8 @@
     <MESSAGE value="Ændret i fields, så den trækker med over i game" />
     <MESSAGE value="Ændret strings til Engelsk fra dansk&#10;&#10;Tilføjet sleep&#10;&#10;Rettet i strings således det ser visuelt bedre ud i konsollen." />
     <MESSAGE value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt." />
+    <MESSAGE value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
