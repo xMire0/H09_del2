@@ -18,8 +18,12 @@ public class Player {
         this.position = 0;
     }
 
-    public void setPosition(int Pos){
-        this.position = Pos;
+    public void setPosition(int pos){
+        if (pos > 12) {
+            pos = 1 + (pos-12);
+        }
+        this.position = pos;
+
     }
 
     public int getPosition(){

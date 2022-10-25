@@ -22,6 +22,6 @@ public class Fields {
             {"- Goldmine, Congratulations! You've received 650 points"}};
 
     public String getSquare(int sumDice){
-        return placesString[sumDice-1][0];
+        return placesString[sumDice][0];
     }
 }
