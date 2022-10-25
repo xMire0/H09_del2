@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret i fields, så den trækker med over i game">
+    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret strings til Engelsk fra dansk&#10;&#10;Tilføjet sleep&#10;&#10;Rettet i strings således det ser visuelt bedre ud i konsollen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +72,7 @@
       <updated>1666690115227</updated>
       <workItem from="1666690116489" duration="367000" />
       <workItem from="1666690492282" duration="1261000" />
+      <workItem from="1666703362996" duration="1485000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret">
       <created>1666691661588</created>
@@ -90,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666693221267</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ændret strings til Engelsk fra dansk&#10;&#10;Tilføjet sleep&#10;&#10;Rettet i strings således det ser visuelt bedre ud i konsollen.">
+      <created>1666701551839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666701551839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ændret" />
     <MESSAGE value="Ændret i fields, så den trækker med over i game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ændret i fields, så den trækker med over i game" />
+    <MESSAGE value="Ændret strings til Engelsk fra dansk&#10;&#10;Tilføjet sleep&#10;&#10;Rettet i strings således det ser visuelt bedre ud i konsollen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ændret strings til Engelsk fra dansk&#10;&#10;Tilføjet sleep&#10;&#10;Rettet i strings således det ser visuelt bedre ud i konsollen." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
