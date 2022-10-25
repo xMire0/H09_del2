@@ -1,0 +1,91 @@
+Index: src/Spil/Fields.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Spil;\n\npublic class Fields {\n    public Fields(){}\n    int[] placesPoint = {0, 250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};\n\n    String[][] placesString = {{\"Tower, Godt gået! Du har modtaget 250 point\"}, {\"Crater, Desværre! du har mistet 100 point\"},\n            {\"palaceGates, Tillykke! du har modtaget 100 point\"},\n            {\"coldDesert, Åh nej! du har mistet 20 point\"},\n            {\"walledCity, Sådan! du har mogtaget 180\"},\n            {\"Monastery, wow! du har hverken modtaget eller mistet point\"},\n            {\"blackCave, Wwa Wa Wa! du har mistet 70 point\"},\n            {\"hutsInTheMountain, Success! du har modtaget 60 point\"} ,\n            {\"theWerewall, Du har mistet 80 point\"},\n            {\"thePit, Du har mistet 50 point\"},\n            {\"Goldmine, Tillykke du har modtaget 650 point\"}};\n\n    public int getSquare(int sumDice){\n        return placesPoint[sumDice];\n\n    }\n\n    public String getTower(int sumDice){\n        return placesPoint[sumDice] + \" \" + placesString[sumDice-1][1];\n    }\n    public int getCrater(int sumDice) {\n        return placesPoint[1];\n    }\n    public int getPalaceGates() {\n        return placesPoint[2];\n    }\n    public int getColdDesert() {\n        return placesPoint[3];\n    }\n    public int getWalledCity() {\n        return placesPoint[4];\n    }\n    public int getMonastery() {\n        return placesPoint[5];\n    }\n    public int getBlackCave() {\n        return placesPoint[6];\n    }\n    public int getHutsInTheMountain() {\n        return placesPoint[7];\n    }\n    public int getTheWerewall() {\n        return placesPoint[8];\n    }\n    public int getThePit() {\n        return placesPoint[9];\n    }\n    public int getGoldmine() {\n        return placesPoint[10];\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Spil/Fields.java b/src/Spil/Fields.java
+--- a/src/Spil/Fields.java	(revision f4f146f9d230872a24fbeb6b2d686f078edb0b22)
++++ b/src/Spil/Fields.java	(date 1666693050881)
+@@ -2,8 +2,9 @@
+ 
+ public class Fields {
+     public Fields(){}
+-    int[] placesPoint = {0, 250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
++    int[] placesPoint = {0 , 250, -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
+ 
++
+     String[][] placesString = {{"Tower, Godt gået! Du har modtaget 250 point"}, {"Crater, Desværre! du har mistet 100 point"},
+             {"palaceGates, Tillykke! du har modtaget 100 point"},
+             {"coldDesert, Åh nej! du har mistet 20 point"},
+@@ -17,11 +18,10 @@
+ 
+     public int getSquare(int sumDice){
+         return placesPoint[sumDice];
+-
+     }
+ 
+     public String getTower(int sumDice){
+-        return placesPoint[sumDice] + " " + placesString[sumDice-1][1];
++        return placesPoint[sumDice] + " " + placesString[sumDice-1][0];
+     }
+     public int getCrater(int sumDice) {
+         return placesPoint[1];
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5dd1087f-d2db-4353-8018-20d6fd680ddd\" name=\"Changes\" comment=\"Ændret\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2GcZzN82KADqTHCPEzR3mBHEdfi\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5dd1087f-d2db-4353-8018-20d6fd680ddd\" name=\"Changes\" comment=\"\" />\n      <created>1666690115227</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1666690115227</updated>\n      <workItem from=\"1666690116489\" duration=\"367000\" />\n      <workItem from=\"1666690492282\" duration=\"1261000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Ændret\">\n      <created>1666691661588</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1666691661588</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Ændret\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Ændret\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f4f146f9d230872a24fbeb6b2d686f078edb0b22)
++++ b/.idea/workspace.xml	(date 1666693050967)
+@@ -1,7 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret" />
++    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Sum terning -&gt; sumdice">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Spil/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -47,7 +50,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1666690115227</updated>
+       <workItem from="1666690116489" duration="367000" />
+-      <workItem from="1666690492282" duration="1261000" />
++      <workItem from="1666690492282" duration="2507000" />
+     </task>
+     <task id="LOCAL-00001" summary="Ændret">
+       <created>1666691661588</created>
+@@ -56,7 +59,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1666691661588</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Sum terning -&gt; sumdice">
++      <created>1666691873557</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1666691873557</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -75,7 +85,8 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Ændret" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Ændret" />
++    <MESSAGE value="Sum terning -&gt; sumdice" />
++    <option name="LAST_COMMIT_MESSAGE" value="Sum terning -&gt; sumdice" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />

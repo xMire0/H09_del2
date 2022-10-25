@@ -4,19 +4,19 @@ public class Fields {
     public Fields(){}
     int[] placesPoint = {0, 250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
 
-    String[][] placesString = {{"Tower, Godt gået! Du har modtaget 250 point"},
-            {"Crater, Desværre! du har mistet 100 point"},
-            {"palaceGates, Tillykke! du har modtaget 100 point"},
-            {"coldDesert, Åh nej! du har mistet 20 point"},
-            {"walledCity, Sådan! du har modtaget 180"},
-            {"Monastery, wow! du har hverken modtaget eller mistet point"},
-            {"blackCave, Wwa Wa Wa! du har mistet 70 point"},
-            {"hutsInTheMountain, Success! du har modtaget 60 point"} ,
-            {"theWerewall, Du har mistet 80 point"},
-            {"thePit, Du har mistet 50 point"},
-            {"Goldmine, Tillykke du har modtaget 650 point"}};
+    String[][] placesString = {{"- Tower, Great! You've received 250 points"},
+            {"- Crater, Wwa wwa! you've lost 100 points"},
+            {"- PalaceGates, Congratulations! You've received 100 point"},
+            {"- ColdDesert, Oh no! You've lost 20 points"},
+            {"- WalledCity, Yes! You've received 180 points"},
+            {"- Monastery, wow! You neither lost nor gained any points"},
+            {"- BlackCave, Wwa Wa Wa! You've lost 70 points"},
+            {"- HutsInTheMountain, Success! You've received  60 points"} ,
+            {"- TheWerewall, You've lost 80 points"},
+            {"- ThePit, You've lost 50 points"},
+            {"- Goldmine, Congratulations! You've received 650 points"}};
 
     public String getSquare(int sumDice){
-        return placesPoint[sumDice] + " " + placesString[sumDice-1][0];
+        return placesString[sumDice-1][0];
     }
 }

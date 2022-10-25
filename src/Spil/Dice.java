@@ -2,8 +2,6 @@ package Spil;
 
 public class Dice {
 
-    public int dice;
-    public int sumTerning = 0;
 
     public Dice() {
     }

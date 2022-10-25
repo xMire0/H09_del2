@@ -1,7 +1,7 @@
 package Spil;
 
 public class Account {
-        public int balance = 1000;
+        private int balance = 1000;
 
         public Account(){
             this.balance = balance;

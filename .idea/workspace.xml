@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret i fields, så den trækker med over i game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Dice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spil.Main" />
+      <module name="H09_del2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Spil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
