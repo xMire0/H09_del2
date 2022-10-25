@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret">
+    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret i fields, så den trækker med over i game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spil/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Game.java" afterDir="false" />
@@ -60,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666691661588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ændret i fields, så den trækker med over i game">
+      <created>1666693221267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666693221267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,7 +86,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ændret" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ændret" />
+    <MESSAGE value="Ændret i fields, så den trækker med over i game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ændret i fields, så den trækker med over i game" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

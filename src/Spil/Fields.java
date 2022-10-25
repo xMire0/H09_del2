@@ -8,7 +8,7 @@ public class Fields {
             {"Crater, Desværre! du har mistet 100 point"},
             {"palaceGates, Tillykke! du har modtaget 100 point"},
             {"coldDesert, Åh nej! du har mistet 20 point"},
-            {"walledCity, Sådan! du har mogtaget 180"},
+            {"walledCity, Sådan! du har modtaget 180"},
             {"Monastery, wow! du har hverken modtaget eller mistet point"},
             {"blackCave, Wwa Wa Wa! du har mistet 70 point"},
             {"hutsInTheMountain, Success! du har modtaget 60 point"} ,
