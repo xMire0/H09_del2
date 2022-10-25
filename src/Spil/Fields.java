@@ -15,15 +15,15 @@ public class Fields {
             {"thePit, Du har mistet 50 point"},
             {"Goldmine, Tillykke du har modtaget 650 point"}};
 
-    public int getSquare(int sumTerning){
-        return placesPoint[sumTerning];
+    public int getSquare(int sumDice){
+        return placesPoint[sumDice];
 
     }
 
-    public String getTower(int sumTerning){
-        return placesPoint[sumTerning] + " " + placesString[sumTerning-1][1];
+    public String getTower(int sumDice){
+        return placesPoint[sumDice] + " " + placesString[sumDice-1][1];
     }
-    public int getCrater(int sumTerning) {
+    public int getCrater(int sumDice) {
         return placesPoint[1];
     }
     public int getPalaceGates() {

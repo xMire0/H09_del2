@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H09_del2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil/Player.java" afterDir="false" />
-    </list>
+    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Ændret" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,8 +47,16 @@
       <option name="presentableId" value="Default" />
       <updated>1666690115227</updated>
       <workItem from="1666690116489" duration="367000" />
-      <workItem from="1666690492282" duration="949000" />
+      <workItem from="1666690492282" duration="1261000" />
     </task>
+    <task id="LOCAL-00001" summary="Ændret">
+      <created>1666691661588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666691661588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +72,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ændret" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ændret" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
