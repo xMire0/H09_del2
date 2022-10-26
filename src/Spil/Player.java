@@ -3,7 +3,7 @@ package Spil;
 public class Player {
     private String name;
     public Account account;
-    public int position = 0;
+    private int position = 0;
 
     public String getName() {
         return name;
@@ -19,10 +19,7 @@ public class Player {
     }
 
     public void setPosition(int pos){
-        if (pos > 12) {
-            pos = 1 + (pos-12);
-        }
-        this.position = pos;
+        this.position = ((pos)%13);
 
     }
 
