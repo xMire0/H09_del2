@@ -35,7 +35,6 @@ public class Game {
         System.out.print("\n");
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("\n");
-        sc.close();
     }
 
     public void Play() throws InterruptedException {
@@ -67,10 +66,10 @@ public class Game {
 
         while(!HasWon) {
             p = pl.getCurrentPlayer();
-            int sumDices = dice.roll(2);
+            int sumDices = dice.roll(4);
             TakeTurn(p, sumDices, places);
             if (sumDices == 10) {
-                sumDices = dice.roll(2);
+                sumDices = dice.roll(4);
                 TakeTurn(p, sumDices, places);
             }
             CheckForWin(p);
