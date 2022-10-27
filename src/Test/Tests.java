@@ -15,7 +15,7 @@ public class Tests {
     @Test
 
     //We are testing for what happens when balance is less than 0, we expect it to be equal to 0 which is exactly what happens.
-    public void checkBalanceLessThan3000(){
+    public void checkBalanceLessThan0(){
         Player player1 = new Player("player1");
         player1.account.setAccount(-1);
         assertEquals(0, player1.account.getAccount());
