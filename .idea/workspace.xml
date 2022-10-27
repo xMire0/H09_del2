@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Har tilføjet en playerliste klasse som opretter players, derudover har jeg lavet taketurn metode og andet.">
+    <list default="true" id="5dd1087f-d2db-4353-8018-20d6fd680ddd" name="Changes" comment="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil/Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Fields.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +72,6 @@
       <workItem from="1666690116489" duration="367000" />
       <workItem from="1666690492282" duration="1261000" />
       <workItem from="1666703362996" duration="8037000" />
-      <workItem from="1666711688410" duration="24000" />
-      <workItem from="1666778237813" duration="17104000" />
-      <workItem from="1666812576627" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Ændret">
       <created>1666691661588</created>
@@ -118,21 +115,7 @@
       <option name="project" value="LOCAL" />
       <updated>1666711511836</updated>
     </task>
-    <task id="LOCAL-00007" summary="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds">
-      <created>1666711705449</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1666711705449</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Har tilføjet en playerliste klasse som opretter players, derudover har jeg lavet taketurn metode og andet.">
-      <created>1666794917647</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1666794917647</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,18 +138,7 @@
     <MESSAGE value="Ændret strings til Engelsk fra dansk&#10;&#10;Tilføjet sleep&#10;&#10;Rettet i strings således det ser visuelt bedre ud i konsollen." />
     <MESSAGE value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt." />
     <MESSAGE value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds" />
-    <MESSAGE value="Har tilføjet en playerliste klasse som opretter players, derudover har jeg lavet taketurn metode og andet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Har tilføjet en playerliste klasse som opretter players, derudover har jeg lavet taketurn metode og andet." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="5" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="Rettet således at vi laver variable for dice istedet for at bruge metoden. Således kan vi opdatere position.&#10;&#10;Fikset account således den bliver opdateret alt afhængig af hvad man slår.&#10;&#10;Fikset strings&#10;&#10;Kommenteret while loopet ud idet det ødelagde koden og ikke fungerede hensigtsmæssigt.&#10;&#10;Fikset så den ikke er out of bounds" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

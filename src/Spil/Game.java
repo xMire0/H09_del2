@@ -30,7 +30,7 @@ public class Game {
         player.setPosition(player.getPosition() + sumDices);
         player.account.setAccount(player.account.getAccount() + places.placesPoint[player.getPosition()]);
         System.out.println("You've rolled: " + sumDices);
-        System.out.println("Player1 you've landed on the field: " + places.getSquare(player.getPosition()));
+        System.out.println(player.getName() + " you've landed on the field: " + places.getSquare(player.getPosition()));
         System.out.println("Your new balance is: " + player.account.getAccount());
         System.out.print("\n");
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
