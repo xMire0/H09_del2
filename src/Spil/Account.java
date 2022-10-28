@@ -11,9 +11,6 @@ public class Account {
             if (balance < 0) {
                 balance = 0;
             }
-            else if(balance > 3000) {
-                balance = 3000;
-            }
                 return balance;
         }
 

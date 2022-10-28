@@ -2,11 +2,12 @@ package Spil;
 
 public class Fields {
     public Fields(){}
+
     public int[] getPlacesPoint() {
         return placesPoint;
     }
 
-    int[] placesPoint = {0, 10, 250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
+    int[] placesPoint = {0, 0, 250,  -100,  100,  -20,  180,  0,  -70, 60,  -80, -50,  650};
 
     String[] placesString = {"Felt 0",
             "Felt 1",
@@ -23,6 +24,6 @@ public class Fields {
             "- Goldmine, Congratulations! You've received 650 points"};
 
     public String getSquare(int sumDice){
-        return placesString[((sumDice)%13)];
+        return placesString[sumDice%13];
     }
 }
