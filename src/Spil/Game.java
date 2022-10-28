@@ -7,7 +7,7 @@ public class Game {
 
     public Game() {
         System.out.println("Write your names and press enter. " +
-                "First player in 1 line, second player in second line");
+                "First player in first line, second player in second line");
     }
     boolean HasWon = false;
     void CheckForWin(Player player) {
