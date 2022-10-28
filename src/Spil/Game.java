@@ -61,7 +61,7 @@ public class Game {
         System.out.println("\n");
 
         Playerlist pl = new Playerlist(2);
-        pl.setCurrentPlayer(0);
+        pl.setCurrentPlayer(1);
 
 
         while(!HasWon) {
