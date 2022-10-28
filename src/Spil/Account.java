@@ -8,7 +8,13 @@ public class Account {
         }
 
         public int getAccount(){
-            return balance;
+            if (balance < 0) {
+                balance = 0;
+            }
+            else if(balance > 3000) {
+                balance = 3000;
+            }
+                return balance;
         }
 
         public int setAccount(int balance){
